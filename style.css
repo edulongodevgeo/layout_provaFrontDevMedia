@@ -15,17 +15,24 @@ body {
   width: 100%;
   background-color: #4d4d4d;
   position: relative;
+  padding: 0 10%;
 }
 
 .nav > .nav-header {
   display: inline;
 }
 
-.nav > .nav-header > .nav-title {
+.nav > .nav-header {
   display: inline-block;
-  font-size: 22px;
+  font-size: 16px;
   color: #fff;
   padding: 10px 10px 10px 10px;
+}
+
+.nav-title {
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
 }
 
 .nav > .nav-btn {
@@ -35,7 +42,7 @@ body {
 .nav > .nav-links {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .nav > .nav-links > a {
@@ -51,6 +58,16 @@ body {
 
 .nav > #nav-check {
   display: none;
+}
+
+.search {
+  margin: 0;
+  margin: 0 auto;
+}
+
+.search > i {
+ color: white;
+cursor: pointer;
 }
 
 @media (max-width:600px) {
@@ -128,4 +145,18 @@ body {
 
 .caption {
   margin-top: 10px;
+}
+
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+  padding: 0 10%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
 }
